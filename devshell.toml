@@ -1,0 +1,14 @@
+[devshell]
+name="osc-reporter"
+packages = [
+  "nodejs",
+  "netcat-openbsd"
+]
+
+[[commands]]
+name="start-server"
+command="npm run start"
+
+[[commands]]
+name="start-test-server"
+command="npm run start-test-server"

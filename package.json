@@ -1,0 +1,12 @@
+{
+  "name": "osc-reporter",
+  "version": "0.1.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-test-server": "nc -u -l 9129"
+  },
+  "dependencies": {
+    "osc-js": "^2.3.2"
+  }
+}
